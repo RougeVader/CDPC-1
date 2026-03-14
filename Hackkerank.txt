@@ -1,0 +1,100 @@
+
+# Python Practice Programs (Formatted Version)
+
+---
+
+## Q1. Say "Hello, World!" With Python
+
+```python
+print("Hello, World!")
+```
+
+---
+
+## Q2. Python If-Else (Version 1)
+
+```python
+#!/bin/python3
+import math
+import os
+import random
+import re
+import sys
+
+if __name__ == '__main__':
+    n = int(input().strip())
+
+    if n % 2 != 0:
+        print("Weird")
+
+    elif n > 2 and n <= 5:
+        print("Not Weird")
+
+    elif n > 6 and n <= 20:
+        print("Weird")
+
+    elif n > 20:
+        print("Not Weird")
+```
+
+---
+
+## Q2. Python If-Else (Version 2)
+
+```python
+n = int(input())
+
+if n % 2 != 0:
+    print("Weird")
+
+elif n >= 2 and n <= 5:
+    print("Not Weird")
+
+elif n >= 6 and n <= 20:
+    print("Weird")
+
+else:
+    print("Not Weird")
+```
+
+---
+
+## Q3. Arithmetic Operators
+
+```python
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+
+    print(a + b)
+    print(a - b)
+    print(a * b)
+```
+
+---
+
+## Q4. Python: Division
+
+```python
+if __name__ == '__main__':
+    a = int(input())
+    b = int(input())
+
+    print(a // b)
+    print(a / b)
+```
+
+---
+
+## Q5. Loops
+
+```python
+if __name__ == '__main__':
+    n = int(input())
+
+    a = 0
+    while n > 0:
+        print(a ** 2)
+        a += 1
+        n -= 1
+```
